@@ -1,0 +1,211 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-family: 'Bangers', cursive;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid-user {
+  width: 400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #257ed1;
+  margin: 20px;
+}
+
+.grid div {
+  width: 40px;
+  height: 40px;
+}
+
+.grid-computer {
+  width: 400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #6ad125;
+  margin: 20px;
+}
+
+.grid-display {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  background-color: #d1c625;
+}
+
+.destroyer {
+  background-color: #d17825;
+}
+
+.destroyer-container {
+  width: 80px;
+  height: 40px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d17825;
+}
+
+.destroyer-container-vertical {
+  width: 40px;
+  height: 80px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d17825;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.submarine {
+  background-color: #d125ac;
+}
+
+.submarine-container {
+  width: 120px;
+  height: 40px;
+  background-color: #d125ac;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.submarine-container-vertical {
+  width: 40px;
+  height: 120px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d125ac;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cruiser {
+  background-color: #6725d1;
+}
+
+.cruiser-container {
+  width: 120px;
+  height: 40px;
+  background-color: #6725d1;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cruiser-container-vertical {
+  width: 40px;
+  height: 120px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #6725d1;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.battleship {
+  background-color: #25d1d1;
+}
+
+.battleship-container {
+  width: 160px;
+  height: 40px;
+  background-color: #25d1d1;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.battleship-container-vertical {
+  width: 40px;
+  height: 160px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #25d1d1;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.carrier {
+  background-color: #d13025;
+}
+
+.carrier-container {
+  width: 200px;
+  height: 40px;
+  background-color: #d13025;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.carrier-container-vertical {
+  width: 40px;
+  height: 200px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d13025;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ship div {
+  width: 40px;
+  height: 40px;
+}
+
+.boom {
+  background: #000;
+}
+
+.miss {
+  background: white;
+}
+
+.connected, .ready {
+  font-weight: normal;
+}
+
+.connected span, .ready span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: red;
+}
+
+span.green {
+  background: green;
+}
+/*# sourceMappingURL=style.css.map */
